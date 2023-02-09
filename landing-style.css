@@ -1,30 +1,180 @@
-div.help{
-    position:fixed;
-    height:100%;
-    width:100%;
-    left:0%;
-}
-div#container{
-    height:100%;
-    width:100%;
+#container{margin:0;
+padding:0;
+width:100%;
 }
 .head-bar{
+    background:rgba(173, 171, 20, 0.911);
+    text-align: center;
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow:hidden;
 }
-.test{
-    display:grid;
-    grid-template-rows: auto;
-    grid-template-columns:50% 50%;
-    height:100%;
+.name{
+    position:relative;
+    top:15px;
+    font-weight:bold;
+}
+#drop{
+    overflow:hidden;
+}
+.ref-con{
+    display:none;
+    position:absolute;
+    min-width:160px;
+}
+.ref-con li{
+    float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.show{
+    display:block;
+}
+
+body{
+    height:110%;
+    overflow:auto;
+    background:rgb(61, 78, 102);
+}
+#body{
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:-17px;
+    left:-5px;
+    width:105%;
+    height:105%;
+    
+}
+.menu-options-right{
+   float:right;
+}
+.menu-options-left{
+    float:left;
+}
+.Ser {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    background: rgb(240,234,176);
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 100;
+    border-radius:10px;
+}
+.Dav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    background: rgb(240,234,176);
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 100;
+    border-radius:10px;
+}
+.Ben {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    background: rgb(240,234,176);
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 100;
+    border-radius:10px;
+}
+.exp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 320px;
+    text-align: center;
+    background: rgb(240,234,176);
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 100;
+    border-radius:25px;
+}
+.Ken {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    background: rgb(240,234,176);
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 100;
+    border-radius:10px;
+}
+.contin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    background: rgb(240,234,176);
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 100;
+    border-radius:10px;
+}
+
+.right-side{
+    width:50%;
+    float:right;
+    height: 80%;
 }
 .left-side{
-    grid-column:1/2;
+    width:30%;
+    float:left;
+    height:100%;
 }
-.right-side{
-    grid-column: 2/2;
+.left-code{
+    background-size:100%;
+    margin:0;
+    padding:0;
+    height:85%;
+    width:150%;
+    opacity:50%;
+    border-radius:15px;
 }
-img{
-    width:100%;
-    height: 100%;
-    object-fit:fill;
-    vertical-align:top;
+.pro-sum{
+    text-align:center;
+    position:relative;
+    top:-50%;
+    left:30%;
+    background: rgb(240,234,176,0.8);
+    border-radius:15px;
+    font-size: 20px;
+}
+.meat{
+    background: rgba(240, 234, 176, 0.9);
+    position:relative;
+    top:40%;
+    left:30%;
+    border-radius:5px;
+    font-size:25px;
+    width:60%;
 }
